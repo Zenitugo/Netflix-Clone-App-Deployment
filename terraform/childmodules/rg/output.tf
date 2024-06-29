@@ -13,3 +13,12 @@ output "rg-location" {
 output "rg-name" {
   value = azurerm_resource_group.rg.name
 }
+
+
+#################################################################################
+#################################################################################
+
+# Output the id of the resource-group
+output "rg-id" {
+  value = azurerm_resource_group.rg.id
+}
