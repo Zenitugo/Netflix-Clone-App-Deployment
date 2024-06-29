@@ -1,0 +1,12 @@
+variable "name" {}
+variable "rg-name" {}
+variable "rg-location" {}
+variable "env" {}
+variable "kubernetes_version" {}
+variable "node-group-name" {}
+variable "sku_tier" {}
+variable "service_cidr" {}
+variable "dns_service_ip" {}
+variable "pri-sub" {}
+variable "user-id" {}
+variable "user-role" {}
